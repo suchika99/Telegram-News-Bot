@@ -8,7 +8,7 @@ from utils import get_reply, fetch_news, topics_keyboard
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger=logging.getLogger(__name__)
 
-TOKEN="1269183685:AAEDu2nuxt5_cYMX6I60I_0C0XZitPaAbBE"
+TOKEN="WRITE YOUR TOKEN HERE"
 
 app=Flask(__name__)
 @app.route('/')
